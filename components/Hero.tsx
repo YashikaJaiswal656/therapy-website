@@ -10,8 +10,7 @@ export default function Hero() {
             <div className="relative w-full max-w-md mx-auto aspect-square">
               <div className="absolute inset-0 hero-arch overflow-hidden bg-neutral-200">
                 <Image
-                  src="https://drive.google.com/uc?export=view&id=1koVGhvD8mkiRXRukqrklo0HbB48p9PIa
-"
+                  src="https://drive.google.com/uc?export=view&id=1koVGhvD8mkiRXRukqrklo0HbB48p9PIa"
                   alt="Flowers representing growth and healing"
                   fill
                   className="object-cover"

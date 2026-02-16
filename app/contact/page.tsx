@@ -32,8 +32,7 @@ export default function ContactPage() {
               <div className="relative w-64 h-64">
                 <div className="absolute inset-0 hero-arch overflow-hidden">
                   <Image
-                    src="https://drive.google.com/uc?export=view&id=1koVGhvD8mkiRXRukqrklo0HbB48p9PIa
-"
+                    src="https://drive.google.com/uc?export=view&id=1koVGhvD8mkiRXRukqrklo0HbB48p9PIa"
                     alt="Flowers"
                     fill
                     className="object-cover"
