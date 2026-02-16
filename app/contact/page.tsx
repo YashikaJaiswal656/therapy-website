@@ -106,7 +106,16 @@ export default function ContactPage() {
             </div>
 
             <div className="bg-neutral-200 h-96 flex items-center justify-center text-neutral-700">
-              <p>Google Maps Embed Would Appear Here</p>
+              <iframe
+  src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d52917.37900167579!2d-118.56966149641562!3d34.00958049974342!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x80c2a4ce02caf1cb%3A0x13cfb8fbc0fcfaaf!2sSanta%20Monica%2C%20CA%2090401%2C%20USA!5e0!3m2!1sen!2sin!4v1771229508337!5m2!1sen!2sin"
+  width="600"
+  height="450"
+  style={{ border: 0 }}
+  allowFullScreen
+  loading="lazy"
+  referrerPolicy="no-referrer-when-downgrade"
+/>
+
             </div>
           </div>
         </div>
