@@ -1,0 +1,37 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@300;400;500;600;700&family=Crimson+Text:wght@400;600;700&display=swap');
+
+@layer base {
+  body {
+    @apply font-body text-neutral-900 antialiased bg-white;
+  }
+  
+  h1, h2, h3, h4, h5, h6 {
+    @apply font-display font-normal;
+  }
+}
+
+@layer components {
+  html {
+    scroll-behavior: smooth;
+  }
+
+  .btn {
+    @apply inline-block px-6 py-2.5 font-body text-sm font-normal transition-all duration-300 border-2 uppercase tracking-wider;
+  }
+
+  .btn-primary {
+    @apply border-neutral-900 text-neutral-900 hover:bg-neutral-900 hover:text-white;
+  }
+
+  .container-custom {
+    @apply max-w-7xl mx-auto px-6 lg:px-12;
+  }
+
+  .hero-arch {
+    border-radius: 50% 50% 0 0 / 100% 100% 0 0;
+  }
+}
